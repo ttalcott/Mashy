@@ -35,16 +35,16 @@ textarea {
     padding-left: 0.5em;
 }
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"]
-{
-    width: 100%;
+/*Navbar Styles*/
+.navbar-inverse {
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .4);
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-  /* Hide captions */
-  .carousel-caption {
-    display: none
-  }
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+    font-size: medium;
 }
+
+
