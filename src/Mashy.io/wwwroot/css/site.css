@@ -1,6 +1,5 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+   
 }
 
 /* Wrapping element */
@@ -10,15 +9,24 @@
     padding-right: 15px;
 }
 
+/*Home Styles*/
+.splash {
+    display: flex;
+    align-items: center;
+    background: url("../images/header.jpg") center center no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
 /*Navbar Styles*/
 .navbar-inverse {
-    background-color: white;
+    background-color: transparent;
     border: none;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .4);
+    
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: black;
+    color: white;
     font-size: xx-large;
     font-family: 'Karla', sans-serif;
 }
