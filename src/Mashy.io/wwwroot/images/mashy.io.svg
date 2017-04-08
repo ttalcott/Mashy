@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="300"
-   height="200"
-   viewBox="0 0 79.374998 52.916668"
+   width="400"
+   height="300"
+   viewBox="0 0 105.83333 79.375002"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
@@ -27,7 +27,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="233.68917"
-     inkscape:cy="332.6208"
+     inkscape:cy="211.40249"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,29 +53,29 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-244.08332)">
+     transform="translate(0,-217.62499)">
     <path
        inkscape:connector-curvature="0"
-       d="M 53.638902,296.13442 C 65.365898,290.9563 73.737904,279.58337 74.605323,266.16068 H 4.2178589 c 0.87015,13.42269 9.2385141,24.79472 20.9636881,29.97374 z"
+       d="m 74.207309,295.06534 c 17.11498,-7.55721 29.333511,-24.15545 30.599471,-43.74521 H 2.0797027 c 1.2699416,19.58976 13.4831613,36.18668 30.5954823,43.74521 z"
        id="path4485"
-       style="fill:#ff6600;stroke-width:0.91019845" />
+       style="fill:#ff6600;stroke-width:1.32839036" />
     <path
        inkscape:connector-curvature="0"
-       d="m 70.24638,264.14832 c -1.545514,-4.85408 -6.254882,-8.21454 -11.563156,-7.83133 -2.093459,0.15201 -4.004877,0.87925 -5.608643,1.99242 -1.972403,-2.65778 -4.996991,-4.4545 -8.408417,-4.81039 -1.787627,-4.87686 -6.625333,-8.18997 -12.061947,-7.79496 -5.395657,0.3923 -9.682692,4.3189 -10.783121,9.34592 -0.482405,-0.019 -0.969363,-0.0208 -1.459958,0.014 -5.328302,0.38502 -9.585299,4.17965 -10.8240807,9.08469 z"
+       d="m 98.445114,248.38318 c -2.255602,-7.08429 -9.128695,-11.98872 -16.875862,-11.42944 -3.055302,0.22185 -5.844923,1.28322 -8.185542,2.90784 -2.878626,-3.8789 -7.292865,-6.50113 -12.271675,-7.02053 -2.608955,-7.11754 -9.669351,-11.95286 -17.603824,-11.37637 -7.874699,0.57255 -14.131418,6.30323 -15.737441,13.63992 -0.704046,-0.0277 -1.414738,-0.0304 -2.130737,0.0204 -7.776398,0.56192 -13.989277,6.1 -15.7972192,13.25867 z"
        id="path4487"
-       style="fill:#e3dedb;stroke-width:0.91019845" />
+       style="fill:#e3dedb;stroke-width:1.32839036" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5782671px;line-height:1.25;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33945513"
-       x="12.787892"
-       y="283.51242"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.81682014px;line-height:1.25;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49541822"
+       x="14.587249"
+       y="276.64413"
        id="text4513"><tspan
          sodipodi:role="line"
          id="tspan4511"
-         x="12.787892"
-         y="283.51242"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5782671px;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.33945513">mashy.<tspan
-   style="fill:#ffffff;stroke-width:0.33945513"
+         x="14.587249"
+         y="276.64413"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.81682014px;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.49541822">mashy.<tspan
+   style="fill:#ffffff;stroke-width:0.49541822"
    id="tspan4496">io</tspan></tspan></text>
   </g>
 </svg>
