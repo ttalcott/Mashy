@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
 using System.IO;
 using System.Text;
 using System.Runtime.Serialization.Json;
@@ -11,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Mashy.Controllers
 {
-    public class YelpSearchController : ApiController
+    public class YelpSearchController 
     {
         [HttpGet]
         public List<Models.SearchDTO> Get()
@@ -49,18 +46,18 @@ namespace Mashy.Controllers
             return search.ToList();
         }
 
-        public List<Models.Business> Get(string id)
+        public List<Models.YelpSearch.Business> Get(string id)
         {
-            var model = new List<Models.Business>();
+            var model = new List<Models.YelpSearch.Business>();
 
             String request = YelpAPI.BusinessRequest(id);
 
 
             //Convert Response to model
-            DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(Models.Business));
+            DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(Models.YelpSearch.Business));
             using (var ms = new MemoryStream(Encoding.Unicode.GetBytes(request)))
             {
-                var searchResults = (Models.Business)serializer.ReadObject(ms);
+                var searchResults = (Models.YelpSearch.Business)serializer.ReadObject(ms);
 
                 model.Add(searchResults);
             }

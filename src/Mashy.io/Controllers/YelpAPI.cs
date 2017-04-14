@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Configuration;
 using System.Collections.Generic;
 using System.Net;
-using SimpleOAuth;
 using System.IO;
 using System.Text;
+using System.Device;
 using System.Device.Location;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
@@ -13,7 +12,7 @@ namespace Mashy.Controllers
 {
     internal class YelpAPI
     {
-        private static string YelpKey = ConfigurationManager.AppSettings["YelpKey"];
+        private static string YelpKey = Microsoft.IdentityModel.Protocols.ConfigurationManager.AppSettings["YelpKey"];
         private static string YelpSecret = ConfigurationManager.AppSettings["YelpSecret"];
         private static string BaseURL = ConfigurationManager.AppSettings["BaseURL"];
 
@@ -23,16 +22,6 @@ namespace Mashy.Controllers
             double longitude = 0;
             string latLong = string.Empty;
             int counter = 0;
-            do
-            {
-                GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
-                watcher.TryStart(false, TimeSpan.FromMilliseconds(10000));
-                latitude = System.Math.Round(watcher.Position.Location.Latitude, 5);
-                longitude = System.Math.Round(watcher.Position.Location.Longitude, 5);
-                latLong = string.Format("{0},{1}", latitude, longitude);
-                counter++;
-                if (counter == 10) break;
-            } while (latitude.ToString() == "NaN");
 
 
 

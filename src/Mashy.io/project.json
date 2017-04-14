@@ -46,7 +46,8 @@
       "type": "build"
     },
     "SimpleOAuth.Net": "1.0.1",
-    "Microsoft.IdentityModel.Protocols": "2.0.0"
+    "Microsoft.IdentityModel.Protocols": "2.0.0",
+    "System.Runtime.Serialization.Json": "4.0.1"
   },
 
   "tools": {
