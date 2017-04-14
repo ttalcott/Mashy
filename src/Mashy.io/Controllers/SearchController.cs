@@ -10,6 +10,10 @@ namespace Mashy.Controllers
 {
     public class YelpSearchController 
     {
+        public YelpSearchController()
+        {
+
+        }
         [HttpGet]
         public List<Models.SearchDTO> Get()
         {
