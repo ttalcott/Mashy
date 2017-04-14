@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet-Mashy-be68032a-1ecd-48a2-83d5-ca3bee65c44b",
 
   "dependencies": {
@@ -41,10 +41,12 @@
       "version": "1.0.0-preview2-final",
       "type": "build"
     },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc":  {
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
       "version": "1.0.0-preview2-final",
       "type": "build"
-    }
+    },
+    "SimpleOAuth.Net": "1.0.1",
+    "Microsoft.IdentityModel.Protocols": "2.0.0"
   },
 
   "tools": {

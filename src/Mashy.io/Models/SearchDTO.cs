@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Mashy.io.Models
+namespace Mashy.Models
 {
-    public class YelpSearchDTO
+    public class SearchDTO
     {
         public string id { get; set; }
         public string name { get; set; }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Mashy.io.Models
+namespace Mashy.Models
 {
     public class YelpSearch
     {
@@ -48,5 +48,10 @@ namespace Mashy.io.Models
             public string snippet_text { get; set; }
             public string url { get; set; }
         }
+        [DataMember]
+        public List<Business> businesses { get; set; }
+        [DataMember]
+        public int total { get; set; }
+
     }
 }
